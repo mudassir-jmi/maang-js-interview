@@ -1,0 +1,6 @@
+# Default owner for all files
+* @mudassir-jmi
+
+# Specific owner for the questions directory
+questions/* @mudassir-jmi
+
