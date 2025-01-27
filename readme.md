@@ -1,29 +1,29 @@
-# MAANG JavaScript Interview Questions
+# MAANG JS Interview Repository
 
-Welcome to the **MAANG JavaScript Interview Questions** repository! This repo contains thoughtfully crafted JavaScript coding challenges to help you prepare for interviews with top-tier tech companies like Meta, Amazon, Apple, Netflix, and Google (MAANG). Dive into these questions to sharpen your problem-solving skills and understand critical JavaScript concepts.
+Welcome to the **MAANG JS Interview** repository! This repository is designed to help developers prepare for JavaScript interviews, especially for roles in major tech companies like MAANG (Meta, Apple, Amazon, Netflix, Google) and others.
 
-## 📚 What's Inside?
+## 🚀 Features
 
-### 1. **Fetch with Auto Retry**
-- **Problem**: Handle API call failures due to network issues by automatically retrying the fetch request.
-- **Solution**: Implement a `fetchWithAutoRetry(fetcher, count)` function that retries a fetch request until the maximum retry count is reached.
+- Comprehensive collection of JavaScript interview questions and answers.
+- Covers core JavaScript concepts, ES6+ features, and advanced topics.
+- Includes coding exercises, examples, and explanations.
+- Beginner-friendly and progressively challenging.
 
-### 2. **Custom Promise Implementation**
-- **Problem**: Understand how Promises work under the hood by implementing your own `MyPromise` class.
-- **Solution**:
-  - Create a class `MyPromise` supporting the following features:
-    - `then()` for chaining.
-    - `catch()` for handling rejections.
-    - Static methods: `MyPromise.resolve()` and `MyPromise.reject()`.
-  - Ensure `then` and `catch` handlers execute asynchronously.
 
-## 🚀 Quick Start
+## 💻 Getting Started
 
-To try these solutions locally:
+Follow these instructions to set up and start using the repository.
+
+### Prerequisites
+
+- Node.js (latest LTS version recommended)
+- Git
+
+### Installation
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/mudassir-jmi/maang-js-interview
+   git clone https://github.com/mudassir-jmi/maang-js-interview.git
    ```
 
 2. Navigate to the project directory:
@@ -31,44 +31,86 @@ To try these solutions locally:
    cd maang-js-interview
    ```
 
-3. Open the code in your favorite editor:
+3. Install dependencies (if applicable):
    ```bash
-   code .
+   npm install
    ```
 
-4. Run the examples:
-   - Use Node.js to execute the files:
-     ```bash
-     node fetchWithAutoRetry.js
-     ```
+4. Start exploring the questions and exercises:
+   ```bash
+   cd questions
+   ```
 
-## 📁 File Structure
+## 📖 How to Use
 
-```
-maang-js-interview/
-Amazon/
-```
+1. **Explore Questions**:
+   - Go to the `questions/` directory.
+   - Each file covers a specific JavaScript topic (e.g., closures, promises).
 
-## 🛠️ Key Features
+2. **Practice Exercises**:
+   - Navigate to the `exercises/` directory.
+   - Solve the problems and compare your solutions with the provided answers.
 
-- **Practical Problems**: Questions designed to simulate real-world challenges.
-- **Detailed Solutions**: Clear and concise implementations for better understanding.
-- **Scalable Code**: Solutions that follow best practices and handle edge cases.
+3. **Learn from Resources**:
+   - Check the `resources/` directory for links to tutorials, articles, and videos.
 
-## 💡 Why These Questions?
+## 🤝 Contributing
 
-These challenges focus on core JavaScript concepts like:
-- Handling asynchronous operations with Promises.
-- Understanding promise chaining and error handling.
-- Implementing retry logic for robust API calls.
+We welcome contributions from the community! Follow these steps to contribute:
 
-Preparing these types of problems will not only help you ace interviews but also deepen your understanding of JavaScript.
+1. **Fork the Repository**:
+   - Click on the "Fork" button at the top-right of this page.
 
-## 📄 License
+2. **Clone Your Fork**:
+   ```bash
+   git clone https://github.com/<your-username>/maang-js-interview.git
+   ```
 
-This project is licensed under the MIT License. Feel free to use, modify, and distribute the code.
+3. **Create a Branch**:
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+
+4. **Make Changes**:
+   - Add questions, improve documentation, or enhance code.
+
+5. **Commit Your Changes**:
+   ```bash
+   git commit -m "Add your feature description"
+   ```
+
+6. **Push Your Branch**:
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+
+7. **Create a Pull Request**:
+   - Go to your fork on GitHub and click "New Pull Request."
+
+Read the [CONTRIBUTING.md](CONTRIBUTING.md) file for detailed guidelines.
+
+## 🛡️ License
+
+This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and distribute this repository, provided proper attribution is given.
+
+## 💬 Community and Support
+
+If you have questions or need help, feel free to:
+- Open an issue in this repository.
+- Write here [Linkedin](https://www.linkedin.com/in/mudassir-akhter/).
+
+## ⭐ Acknowledgments
+
+- Thanks to the JavaScript community for inspiration and contributions.
+- Special shoutout to all contributors who help make this repository better.
+
+## 🌟 Show Your Support
+
+If you find this repository helpful, please:
+- ⭐ Star this repository.
+- Share it with your friends and colleagues.
 
 ---
 
-Happy Coding! ✨
+Happy coding and good luck with your interviews! 🚀
 
